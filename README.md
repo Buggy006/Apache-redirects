@@ -1,0 +1,2 @@
+# Apache-redirects
+KodeKloud Task
