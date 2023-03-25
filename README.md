@@ -20,8 +20,9 @@ ssh bannner@stapp03
 
 sudo su -
 ```
-##### change apache listen to 3001
-```vi /etc/httpd/conf/httpd.conf
+##### change apache listen to  port 3001
+```
+  vi /etc/httpd/conf/httpd.conf
 ```
 #### Create main.conf to redirect.
 ```
