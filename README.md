@@ -31,12 +31,12 @@ vi /etc//httpd/conf.d/main.conf
 ##### configuration to redirect
 ```
 <VirtualHost *:3001>
-Severname stapp03.stratos.xfusioncorp.com
+Servername stapp03.stratos.xfusioncorp.com
 Redirect 301 / http://www.stapp03.startos.xfusioncorp.com:3001
 </VirtualHost>
 <VirtualHost *:3001>
-Servername stapp03.stratos.xfusioncorp.com:<3001>/blog>
-Redirect 302 /blog/  http://www.stapp03.stratos.xfusioncorp.com:<3001>/news/
+Servername stapp03.stratos.xfusioncorp.com:3001/blog>
+Redirect 302 /blog/  http://www.stapp03.stratos.xfusioncorp.com:3001/news/
 </VirtualHost>
 ```
 ##### Restart the apache server
